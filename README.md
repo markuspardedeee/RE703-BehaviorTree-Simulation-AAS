@@ -13,17 +13,17 @@ Behaviour Tree Diagram
 Running Instruction
 1. Open Terminal
 To run the robot simulation in the gazebo, run the following commands:
-cd ~/gazebo_ws
-source ~/gazebo_ws/install/setup.bash
-source /opt/ros/humble/setup.bash
-ros2 launch barabot launch_sim.launch.py
+  cd ~/gazebo_ws
+  source ~/gazebo_ws/install/setup.bash
+  source /opt/ros/humble/setup.bash
+  ros2 launch barabot launch_sim.launch.py
 
 3. Open New Terminal
 To run the behavior tree algorithm, run the following commands:
-cd ~/gazebo_ws
-source install/setup.bash
-ros2 run barabot_bt bt_main
+  cd ~/gazebo_ws
+  source install/setup.bash
+  ros2 run barabot_bt bt_main
 
 Demonstration Robot
-https://www.youtube.com/watch?v=5vrrORMIICo
+https://youtu.be/5vrrORMIICo?si=1bnhsrgRUswt_irm 
 
